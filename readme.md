@@ -28,7 +28,7 @@
 •	User can change their password and reset password by email verification.
 
 ## Table of Contents  
-   - [Supported versions](#supported-versions)  
+- [Supported versions](#supported-versions)  
 
 
 ## Supported Version
