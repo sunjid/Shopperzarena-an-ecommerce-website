@@ -31,7 +31,7 @@
 - [Supported versions](#supported-versions)  
 
 
-## Supported Version
+## Supported versions
 
 Supported Version for Shopperzarena is given below-
     
