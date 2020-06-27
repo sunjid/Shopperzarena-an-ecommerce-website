@@ -42,9 +42,9 @@ Supported Version for Shopperzarena is given below-
 ## How to use
 
 - Clone: __Download the zip file from clone option https://github.com/sunjid/Shopperzarena-an-ecommerce-website.git__
-- Extract the file into __htdocs__ folder
-- Check __.env__ files and edit database credentials.
-- Run __composer install__
+- Extract the files into __htdocs__ folder
+- Check __.env__ files and edit mysql database credentials.
+- Then go to __phpmyadmin__ and create a database name same as metioned in __.env__ files.
 - Run __composer dump-autoload__
 - Run __php artisan key:generate__
 - Run __php artisan migrate --seed__
