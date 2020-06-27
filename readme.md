@@ -43,11 +43,14 @@ Supported Version for Shopperzarena is given below-
 
 - Clone: __Download the zip file from clone option https://github.com/sunjid/Shopperzarena-an-ecommerce-website.git__
 - Extract the files into __htdocs__ folder
-- Check __.env__ files and edit mysql database credentials.
+- Check __.env__ files and  mysql database credentials.
 - Then go to __phpmyadmin__ and create a database name same as metioned in __.env__ files.
 - After creating database go to your project folder.
-- Open the terminal from project folder the run command __php artisan:migrate__ 
-- After running the command wait for some time and you will see that all the tables will be migrated to the database that you have created
+- Open the terminal from project folder. 
+- Then run command __php artisan:migrate__ 
+- After that run command __php artisan serve__
+- This command will start a development server at __http://localhost:8000__ .   
+- After migration go the browser paste this url __http://localhost:8000__  and click enter.
 
 
 
