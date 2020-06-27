@@ -45,9 +45,8 @@ Supported Version for Shopperzarena is given below-
 - Extract the files into __htdocs__ folder
 - Check __.env__ files and edit mysql database credentials.
 - Then go to __phpmyadmin__ and create a database name same as metioned in __.env__ files.
-- Run __composer dump-autoload__
-- Run __php artisan key:generate__
-- Run __php artisan migrate --seed__
+- After creating database go to your project folder which you have extracted on __localhost__
+- Open the terminal from project folder the run command __php artisan:migrate__ 
 - Login with:
     - Admin: __admin__ - __secret__
 
