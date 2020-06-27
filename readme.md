@@ -29,7 +29,7 @@
 
 ## Table of Contents  
 - [Supported versions](#supported-versions)  
-- [Installation Process](#installation-process)
+- [How to use](#how-to-use)
 
 ## Supported versions
 
@@ -39,7 +39,17 @@ Supported Version for Shopperzarena is given below-
 
 - LTS release: Laravel 5.7 or higher, 6.x and 7.x.
 
-## Installation Process
+## How to use
+
+- Clone: __git clone https://github.com/gemul/inventory-laravel.git inventory__
+- cd inventory
+- Copy __.env.example__ file to __.env__ and edit database credentials and APP_URL
+- Run __composer install__
+- Run __composer dump-autoload__
+- Run __php artisan key:generate__
+- Run __php artisan migrate --seed__
+- Login with:
+    - Admin: __admin__ - __secret__
 
 
 
