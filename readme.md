@@ -28,7 +28,7 @@
 •	User can change their password and reset password by email verification.
 
 ## Table of Contents  
-   •  [Suppoerted Version](#headers)  
+   •  [Supported Version](#headers)  
 
 
 ## Supported Version<a name="headers"/>
