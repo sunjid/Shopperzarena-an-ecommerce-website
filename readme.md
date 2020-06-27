@@ -28,10 +28,10 @@
 •	User can change their password and reset password by email verification.
 
 ## Table of Contents  
-   •  [Supported Version](#headers)  
+   - [Supported versions](#supported-versions)  
 
 
-## Supported Version<a name="headers"/>
+## Supported Version
 
 Supported Version for Shopperzarena is given below-
     
