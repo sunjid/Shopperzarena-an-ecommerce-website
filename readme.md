@@ -41,8 +41,8 @@ Supported Version for Shopperzarena is given below-
 
 ## How to use
 
-- Clone: __git clone https://github.com/sunjid/Shopperzarena-an-ecommerce-website.git__
-- cd inventory
+- Clone: __Download the zip file from clone option https://github.com/sunjid/Shopperzarena-an-ecommerce-website.git__
+- Extract the file into __htdocs__ folder
 - Copy __.env.example__ file to __.env__ and edit database credentials and APP_URL
 - Run __composer install__
 - Run __composer dump-autoload__
