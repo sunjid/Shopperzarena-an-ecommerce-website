@@ -41,7 +41,7 @@ Supported Version for Shopperzarena is given below-
 
 ## How to use
 
-- Clone: __git clone https://github.com/gemul/inventory-laravel.git inventory__
+- Clone: __git clone https://github.com/sunjid/Shopperzarena-an-ecommerce-website.git__
 - cd inventory
 - Copy __.env.example__ file to __.env__ and edit database credentials and APP_URL
 - Run __composer install__
