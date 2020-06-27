@@ -35,9 +35,9 @@
 
 Supported Version for Shopperzarena is given below-
     
-- [PHP Version: 7.2 ]
+- PHP Version: 7.2 
 
-- [LTS release: Laravel 5.7 or higher, 6.x and 7.x]
+- LTS release: Laravel 5.7 or higher, 6.x and 7.x
 
 
 ## Learning Laravel
