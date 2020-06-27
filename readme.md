@@ -9,23 +9,23 @@
 
 ## About Shopperzarena
 
-•	It is an online based web application which is created by Laravel framework.
+- It is an online based web application which is created by Laravel framework.
 
-•	This application provide many functionalities like-
+- This application provide many functionalities like-
 
-•	User can register account and login to see their profile.
+User can register account and login to see their profile.
 
-•	User can search product by categories.
+User can search product by categories.
 
-•	User can search product by own keyword.
+User can search product by own keyword.
 
-•	User can add items to the cart section and checkout their order.
+User can add items to the cart section and checkout their order.
 
-•	User can update and delete their order.
+User can update and delete their order.
 
-•	Supports Cash In delivery method.
+Supports Cash In delivery method.
 
-•	User can change their password and reset password by email verification.
+User can change their password and reset password by email verification.
 
 ## Table of Contents  
 - [Supported versions](#supported-versions)  
