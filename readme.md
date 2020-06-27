@@ -48,19 +48,9 @@ Supported Version for Shopperzarena is given below-
 - After creating database go to your project folder.
 - Open the terminal from project folder. 
 - Then run command __php artisan:migrate__ 
+- After running this command you will see that all the tables are migrated successfully.
 - After that run command __php artisan serve__
 - This command will start a development server at __http://localhost:8000__ .   
 - After migration go the browser paste this url __http://localhost:8000__  and click enter.
 
 
-
-
-
-
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Shopperzarena-an-ecommerce-website
-# Shopperzarena-an-ecommerce-website
-# Shopperzarena-an-ecommerce-website
