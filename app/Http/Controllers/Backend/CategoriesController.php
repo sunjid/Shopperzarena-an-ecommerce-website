@@ -31,7 +31,7 @@ class CategoriesController extends Controller
   {
     $this->validate($request, [
     'name' => 'required',
-    'image' => 'nullable|image',
+    // 'image' => 'nullable|image',
 
   ]);
   $category = new Category;

@@ -25,7 +25,7 @@ class SlidersController extends Controller
   {
     $this->validate($request, [
     'title' => 'required',
-    'image' => 'required|image',
+    // 'image' => 'required|image',
     'priority' => 'required',
     'button_link' => 'nullable|url',
 

@@ -29,7 +29,7 @@ class BrandsController extends Controller
   {
     $this->validate($request, [
     'name' => 'required',
-    'image' => 'nullable|image',
+    // 'image' => 'nullable|image',
 
   ]);
   $brand = new Brand();
