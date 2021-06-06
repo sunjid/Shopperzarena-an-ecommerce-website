@@ -29,13 +29,6 @@ class CreateOrdersTable extends Migration
             $table->string('transaction_id')->nullable();
             $table->timestamps();
 
-            $table->foreign('user_id')
-            ->references('id')->on('users')
-            ->onDelete('cascade');
-
-            $table->foreign('payment_id')
-            ->references('id')->on('payments')
-            ->onDelete('cascade');
         });
     }
 
@@ -46,6 +39,14 @@ class CreateOrdersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('orders');
+        Schema::table('cities', function (Blueprint $table) {
+            $table->foreign('user_id')
+            ->references('id')->on('users')
+            ->onDelete('cascade');
+
+            $table->foreign('payment_id')
+            ->references('id')->on('payments')
+            ->onDelete('cascade');
+        });
     }
 }
