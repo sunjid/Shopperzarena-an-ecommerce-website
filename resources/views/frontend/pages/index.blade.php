@@ -55,7 +55,7 @@
 		<div class="topbar">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-12 col-12">
+					<div class="col-lg-5 col-md-12 col-12">
 						<!-- Top Left -->
 						<div class="top-left">
 							<ul class="list-main">
@@ -66,7 +66,7 @@
 						<!--/ End Top Left -->
 					</div>
 					
-					<div class="col-lg-8 col-md-12 col-12">
+					<div class="col-lg-7 col-md-12 col-12">
 						<!-- Top Right -->
 						<div class="right-content">
 							<ul class="list-main">
@@ -289,7 +289,7 @@
 				<div class="carousel-inner">
 					@foreach ($sliders as $slider)
 						<div class="carousel-item {{ $loop->index == 0 ? 'active' :'' }}" >
-							<img class="d-block w-100" src="{{ asset('images/sliders/'.$slider->image) }}" alt="{{$slider->title}}" style="height:450px;"/>
+							<img class="d-block w-100 banner-height" src="{{ asset('images/sliders/'.$slider->image) }}" alt="{{$slider->title}}" style="height:450px;"/>
 							<div class="carousel-caption hero-text" >
                         <div class="row">
 								<div class="col-lg-12">

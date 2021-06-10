@@ -4,7 +4,7 @@
 		<div class="topbar">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-12 col-12">
+					<div class="col-lg-5 col-md-12 col-12">
 						<!-- Top Left -->
 						<div class="top-left">
 							<ul class="list-main">
@@ -15,7 +15,7 @@
 						<!--/ End Top Left -->
 					</div>
 					
-					<div class="col-lg-8 col-md-12 col-12">
+					<div class="col-lg-7 col-md-12 col-12">
 						<!-- Top Right -->
 						<div class="right-content">
 							<ul class="list-main">

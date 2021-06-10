@@ -225,6 +225,11 @@ Version:1.0
 /*======================================
   01. Header CSS
 ========================================*/
+/* Banner Height */
+.w-100 {
+  width: 100%!important;
+}
+
 /* Topbar */
 .topbar {
   background-color: #fff;
@@ -359,7 +364,7 @@ Version:1.0
 }
 .header.shop .topbar {
   border: none;
-  padding: 12px 0px;
+  padding: 6px 0px;
 }
 .header.shop .nav-inner {
   margin-right: 188px;
@@ -737,7 +742,7 @@ Version:1.0
   top: 0;
 }
 .header.shop .middle-inner {
-  padding: 20px 0;
+  padding: 4px 0;
   background: #fff;
   border-top: 1px solid #eee;
 }
@@ -1220,11 +1225,8 @@ Version:1.0
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
-    
 }
-.hero-slider .text-inner {
-  
-}
+
 .hero-slider .hero-text {
   padding: 0 30px;
   margin-top:100px;
